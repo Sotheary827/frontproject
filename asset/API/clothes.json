@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "titles": "Zando Couple T-shirt",
+    "descriptions": "Zando Couple T-Shirt is designed for couples who love matching outfits with a modern style. Made from soft and breathable fabric, it provides all-day comfort while maintaining a clean and stylish look. The simple design makes it easy to wear for casual outings, travel, or daily activities.",
+    "prices": 45.20,
+    "images": "../asset/images/RT5-cr-450x672.jpg"
+  },
+  {
+    "id": 2,
+    "titles": "Women Casual Premium Slim Fit T-Shirts",
+    "descriptions": "This women’s casual premium slim fit T-shirt is designed to fit the body comfortably while keeping a clean and elegant shape. Made from high-quality cotton fabric, it feels soft on the skin and allows good airflow. Easy to pair with jeans, skirts, or shorts, it is perfect for everyday casual wear.",
+    "prices": 9.99,
+    "images": "../asset/images/product (13).jpg"
+  },
+  {
+    "id": 3,
+    "titles": "Ten Eleven Cropped Top",
+    "descriptions": "The Ten Eleven Cropped Top offers a trendy and modern look for young women. Designed with a flattering cropped cut, it pairs well with high-waisted jeans or skirts. The soft and stretchy material provides comfort while maintaining style, making it suitable for casual days, hangouts, or street fashion looks.",
+    "prices": 16,
+    "images": "../asset/images/Top (1).jpg"
+  },
+  {
+    "id": 4,
+    "titles": "Elegant Mini Dress",
+    "descriptions": "This elegant mini dress features a stylish and feminine design perfect for special occasions or casual parties. Made with comfortable fabric, it fits beautifully and enhances the body shape. Easy to style with heels or flats, this dress gives a classy and confident appearance.",
+    "prices": 38.50,
+    "images": "../asset/images/XING.VX-17-cr-450x672.jpg"
+  },
+  {
+    "id": 5,
+    "titles": "Regular T-Shirt With Printed",
+    "descriptions": "A regular fit T-shirt with a printed design that adds personality to your outfit. Crafted from soft cotton material, it ensures comfort throughout the day. Suitable for casual wear, this T-shirt pairs well with jeans or shorts for a relaxed and fashionable look.",
+    "prices": 18,
+    "images": "../asset/images/image (3).jpg"
+  },
+  {
+    "id": 6,
+    "titles": "Women Casual Premium Slim Fit T-Shirts",
+    "descriptions": "This premium slim fit T-shirt offers a simple yet stylish look for women. The soft fabric provides comfort while the slim fit design enhances the body shape. Ideal for everyday wear, office casual style, or weekend outings.",
+    "prices": 28,
+    "images": "../asset/images/product (21).jpg"
+  },
+  {
+    "id": 7,
+    "titles": "Zando Elegant Mini Dress",
+    "descriptions": "Zando Elegant Mini Dress is designed for women who love simple elegance. The dress features a clean silhouette and comfortable fabric, making it suitable for events, dinners, or casual occasions. Its modern style allows easy pairing with accessories and shoes.",
+    "prices": 10.20,
+    "images": "../asset/images/XING.VX-33-cr-450x672.jpg"
+  },
+  {
+    "id": 8,
+    "titles": "Routine Relaxed Fitted Shirt",
+    "descriptions": "Routine Relaxed Fitted Shirt combines comfort with a neat appearance. Designed with a relaxed fit, it allows easy movement while still looking polished. Made from breathable fabric, it is ideal for office wear, casual meetings, or everyday fashion.",
+    "prices": 20,
+    "images": "../asset/images/product (24).jpg"
+  },
+  {
+    "id": 9,
+    "titles": "Regular T-Shirt With Printed",
+    "descriptions": "This printed regular T-shirt delivers a casual and youthful style. The comfortable cotton fabric makes it suitable for daily wear. The printed design adds a fashionable touch while keeping the outfit simple and easy to style.",
+    "prices": 18.50,
+    "images": "../asset/images/Life1.jpg"
+  },
+  {
+    "id": 10,
+    "titles": "Zando Elegant Mini Dress",
+    "descriptions": "This Zando Elegant Mini Dress offers a modern and feminine look. Designed with soft fabric and a flattering cut, it provides comfort and style. Suitable for casual events, outings, or evening wear.",
+    "prices": 14.50,
+    "images": "../asset/images/XING.VX-4-cr-450x672.jpg"
+  },
+  {
+    "id": 11,
+    "titles": "Routin Brand Relaxed Fitted Shirt",
+    "descriptions": "Routine Brand Relaxed Fitted Shirt is perfect for those who prefer a clean and comfortable style. The shirt offers a relaxed fit with a structured look, making it suitable for both casual and semi-formal occasions. Easy to pair with jeans or trousers.",
+    "prices": 25,
+    "images": "../asset/images/image (2).jpg"
+  },
+  {
+    "id": 12,
+    "titles": "Sport Life T-Shirts With Printed",
+    "descriptions": "Sport Life T-Shirts with printed design offer a sporty and energetic style. Made from lightweight and breathable material, they are ideal for casual wear or light activities. The printed graphic adds a modern and youthful touch.",
+    "prices": 25,
+    "images": "../asset/images/product (1).jpg"
+  },
+  {
+    "id": 13,
+    "titles": "Wine Leg Denim Jean",
+    "descriptions": "Wine leg denim jeans are designed with a stylish and comfortable fit. Made from durable denim fabric, they provide flexibility and long-lasting wear. Suitable for casual outfits and easy to pair with T-shirts or shirts for a trendy look.",
+    "prices": 22.40,
+    "images": "../asset/images/product (17).jpg"
+  },
+  {
+    "id": 14,
+    "titles": "Routine Mini Pleats Dresses",
+    "descriptions": "14. Routine Mini Pleats Dress Routine Mini Pleats Dress features a soft pleated design that adds elegance and movement. Made with lightweight fabric, it feels comfortable and looks graceful. Perfect for casual outings, work, or semi-formal events.",
+    "prices": 10.50,
+    "images": "../asset/images/sport-life-2.jpg"
+  },
+  {
+    "id": 15,
+    "titles": "Women Jacket",
+    "descriptions": "This women’s jacket from a local brand offers both warmth and style. Designed with a modern cut and comfortable fabric, it is suitable for casual wear or cool weather. Easy to match with jeans or dresses for a stylish layered look.",
+    "prices": 19.99,
+    "images": "../asset/images/product (27).jpg"
+  },
+  {
+    "id": 16,
+    "titles": "Zando Sport Life T-shirt",
+    "descriptions": "Zando Sport Life T-Shirt combines casual comfort with a sporty design. Made from breathable fabric, it is perfect for daily wear or light activities. The simple yet modern style makes it easy to pair with any casual outfit.",
+    "prices": 29.99,
+    "images": "../asset/images/product (25).jpg"
+  }
+]

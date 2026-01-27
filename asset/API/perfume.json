@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Giorgio Armani My Way 90ml.",
+    "price": 210,
+    "description": "Giorgio Armani My Way is a modern and elegant floral fragrance designed for confident and open-minded women. The scent opens with fresh bergamot and orange blossom, giving a clean and bright start. At the heart, creamy tuberose and jasmine create a rich and feminine floral bouquet.",
+    "image": "../asset/images/photo(a13).jpg"
+  },
+  {
+    "id": 2,
+    "title": "Christian Dior J'adore Perfume",
+    "price": 164.99,
+    "description": "J’adore by Dior is a timeless and luxurious floral fragrance loved around the world. It blends rich ylang-ylang, damask rose, and jasmine into a smooth and radiant bouquet. The scent feels soft yet powerful, feminine yet confident. Ideal for women who appreciate elegance, sophistication, and classic beauty for both day and evening wear.",
+    "image": "../asset/images/photo(a9).jpg"
+  },
+  {
+    "id": 3,
+    "title": "Coach Wild Rose 100ml",
+    "price": 120,
+    "description": " Coach Wild Rose is a fresh and modern floral fragrance inspired by free-spirited femininity. It opens with juicy red currant and sparkling bergamot, followed by a heart of soft wild rose and jasmine sambac. The base of crystal moss and warm amber gives the perfume a smooth and comforting finish. Perfect for daily wear, this scent feels youthful, elegant, and natural.",
+    "image": "../asset/images/photo(a18).jpg"
+  },
+  {
+    "id": 4,
+    "title": "Delina La Rosée 75ml.",
+    "price": 240.50,
+    "description": "Delina La Rosée is a fresh and luminous floral fragrance with a modern romantic touch. It opens with sparkling citrus, pear, and lychee, leading into a heart of transparent Turkish rose and peony. Soft white musk and woody notes in the base create a clean and gentle finish. This perfume is light, airy, and perfect for warm weather or daytime use.",
+    "image": "../asset/images/photo(a21).jpg"
+  },
+  {
+    "id": 5,
+    "title": "Valentino born in Roma 50ml.",
+    "price": 189,
+    "description": "Valentino Born in Roma is a modern floral-oriental fragrance inspired by Roman elegance and bold individuality. It features a rich blend of jasmine, vanilla bourbon, and woody accords. The scent is warm, sensual, and stylish, making it perfect for evening wear or special occasions. A great choice for confident and fashionable women.",
+    "image": "../asset/images/photo(b10).jpg"
+  },
+  {
+    "id": 6,
+    "title": "Miss Dior eau de Toilette 100ml.",
+    "price": 159.99,
+    "description": "Miss Dior Eau de Toilette is a fresh and elegant floral fragrance that expresses youthful romance. It opens with bright citrus notes, followed by a heart of soft rose and peony. The base is light and woody, giving a clean and refined finish. Perfect for everyday wear, this perfume feels gentle, feminine, and timeless.",
+    "image": "../asset/images/photo(a4).jpg"
+  },
+  {
+    "id": 7,
+    "title": "Miss Dior Rose N'Rose 100ml.",
+    "price": 180.20,
+    "description": "Miss Dior Rose N’Rose is a vibrant and joyful rose fragrance that highlights fresh floral beauty. The scent is built around bright Grasse rose, combined with citrus freshness and soft white musk. It feels fresh, lively, and romantic without being heavy. Ideal for women who love pure rose scents with a modern twist.",
+    "image": "../asset/images/photo(a3).jpg"
+  },
+  {
+    "id": 8,
+    "title": "Eau de Memo from Paris 100ml.",
+    "price": 200,
+    "description": "Eau de Memo is a refined and artistic fragrance inspired by Parisian elegance. It blends fresh citrus notes with green tea, leather, and soft woody accords. The result is a clean yet luxurious scent that feels unique and sophisticated. Perfect for those who want a signature fragrance that stands out while remaining elegant.",
+    "image": "../asset/images/photo(a8).jpg"
+  },
+  {
+    "id": 9,
+    "title": "Chance Chanel Perfume 100ml.",
+    "price": 120,
+    "description": "Chanel Chance is a lively and elegant fragrance that balances freshness and warmth beautifully. It opens with sparkling citrus and soft floral notes, followed by a heart of jasmine and pink pepper. The base of white musk and woods adds sensuality and depth. A versatile perfume suitable for both day and night.",
+    "image": "../asset/images/photo_2024-10-22_18-15-20.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Gucci Flora Gorgeous Gardenia 100ml",
+    "price": 150,
+    "description": "Gucci Flora Gorgeous Gardenia is a joyful and elegant floral fragrance that celebrates femininity and happiness. It opens with bright red berries and fresh pear, creating a sweet and lively first impression. The heart features beautiful white gardenia and frangipani flowers, giving the scent a creamy and romantic floral character.",
+    "image": "../asset/images/photo(a5).jpg"
+  },
+  {
+    "id": 11,
+    "title": "Gucci Flora Gorgeous Magnolia 100ml",
+    "price": 139,
+    "description": "Gucci Flora Gorgeous Magnolia is a rich and expressive floral fragrance with a modern character. It highlights magnolia petals blended with jasmine and sweet fruity notes. The base adds warmth and softness, creating a smooth and luxurious finish. This perfume is confident, elegant, and perfect for women who love bold floral scents.",
+    "image": "../asset/images/photo(a6).jpg"
+  },
+  {
+    "id": 12,
+    "title": "Polo Red Ralph Lauren for Men 125ml",
+    "price": 145.50,
+    "description": "Polo Red is a bold and energetic fragrance designed for adventurous men. It opens with red fruits and citrus, followed by spicy and aromatic notes. The warm woody and amber base adds strength and masculinity. Perfect for everyday wear or active lifestyles.",
+    "image": "../asset/images/photo(a15).jpg"
+  },
+  {
+    "id": 13,
+    "title": "Coach New york Men 100ml.",
+    "price": 120.20,
+    "description": "Coach New York for Men is a modern and stylish fragrance with a fresh masculine character. It blends fruity freshness with spicy and woody notes, creating a balanced and easy-to-wear scent. Ideal for daily use, office wear, or casual occasions.",
+    "image": "../asset/images/photo(a17).jpg"
+  },
+  {
+    "id": 14,
+    "title": "Yves Saint Laurent YSL Y EDP 100ml",
+    "price": 190,
+    "description": "Y EDP by Yves Saint Laurent is a powerful and modern fragrance for men. It combines fresh bergamot and ginger with aromatic sage and juniper. The woody base of cedar and vetiver gives depth and long-lasting performance. Perfect for confident men who want a strong signature scent.",
+    "image": "../asset/images/photo(a20).jpg" 
+  },
+  {
+    "id": 15,
+    "title": "Christian Dior Sauvage 100ml",
+    "price": 220.20,
+    "description": "Dior Sauvage is a bold and intense aromatic fragrance inspired by open landscapes. It features fresh bergamot, spicy pepper, and a strong woody ambroxan base. Long-lasting and highly masculine, this scent is suitable for any occasion, day or night.",
+    "image": "../asset/images/photo(a10).jpg"
+  },
+  {
+    "id": 16,
+    "title": "Jean Pual Ultra Male 125ml.",
+    "price": 150,
+    "description": "Ultra Male is a powerful and seductive fragrance with a sweet and spicy character. It opens with juicy pear and citrus, followed by lavender and cinnamon. The rich vanilla base adds warmth and intensity. Perfect for night outings and special occasions.",
+    "image": "../asset/images/photo(a16).jpg"
+  },
+  {
+    "id": 17,
+    "title": "Prada Luna Rossa Black EDP 100ml",
+    "price": 110.50,
+    "description": "Luna Rossa Black is a deep and mysterious fragrance with a smooth, elegant style. It blends spicy notes with powdery and woody accords, creating a warm and sensual scent. Best suited for evening wear and formal occasions.",
+    "image": "../asset/images/photo(a22).jpg"
+  },
+  {
+    "id": 18,
+    "title": "Carolina Herrena Bad Boy Cobalt EDP 90ml.",
+    "price": 135,
+    "description": "Bad Boy Cobalt is a fresh yet intense fragrance with a modern masculine edge. It combines aromatic freshness with spicy and mineral notes, creating a bold and confident scent. Perfect for men who like strong, stylish fragrances.",
+    "image": "../asset/images/photo(a25).jpg"
+  },
+  {
+    "id": 19,
+    "title": "Versace Esor for Men 100ml.",
+    "price": 129.99,
+    "description": "Versace Eros is a powerful and seductive fragrance inspired by strength and passion. It features fresh mint and green apple, blended with warm tonka bean and vanilla. Strong, long-lasting, and perfect for confident men.",
+    "image": "../asset/images/photo(a7).jpg"
+  },
+  {
+    "id": 20,
+    "title": "Valentino Uomo born in Roma 50ml.",
+    "price": 159.20,
+    "description": "Uomo Born in Roma is a modern and refined men’s fragrance with a woody-aromatic profile. It combines fresh violet leaf and sage with smoky vetiver. Elegant, masculine, and suitable for both day and night wear.",
+    "image": "../asset/images/photo(a19).jpg"
+  }
+]
