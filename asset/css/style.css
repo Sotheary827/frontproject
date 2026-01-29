@@ -865,7 +865,6 @@ h1 > b {
   font-weight: 700;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .feedback-list {
   display: flex;
   gap: 30px;
@@ -873,7 +872,6 @@ h1 > b {
   flex-wrap: wrap;
   
 }
-
 .feedback-card {
   margin-top: 30px;
   background-color: #f9fdff;
@@ -882,8 +880,108 @@ h1 > b {
   border-radius: 9px;
    box-shadow: 1px 1px 5px gray;
 }
-
 .feedback-card p {
   font-style: italic;
   margin-bottom: 15px;
+}
+/* #addtocard{
+  background-color: #f5c518;
+} */
+#addtocard i{
+  position: relative;
+  top: 2px;
+}
+#addtocard #btncardnumber{
+  width: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 15px;
+  top: 27px;
+  right: 60px;
+  font-weight: 600;
+}
+ .boxproducts{
+  width: 98%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  /* display: none; */
+ }
+ .boxx{
+  width: 88%;
+  height: auto;
+  /* padding: 40px; */
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #edebeb;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+ }
+ .procards{
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px gray;
+  background-color: white;
+  width: 300px;
+  height: 480px;
+  /* margin: 0 auto; */
+  padding: 10px;
+  border-radius: 10px;
+ }
+ #picbuyproduct{
+  width: 300px;
+  height: 300px;
+  object-fit:cover;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin: 0 auto;
+  border-radius: 8px;
+ }
+ #titlebuyproduct{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 270px;
+  height: 60px;
+  overflow: hidden;
+  word-wrap: break-word;
+  align-items: center;
+  text-align: center;
+ }
+ #pricebuyproduct{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  margin-top: -16px;
+  overflow: hidden;
+  word-wrap: break-word;
+ }
+ #deleteproduct{
+  width: 99%;
+  height: 40px;
+  cursor: pointer;
+  background-color: red;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  /* margin-top: -8px; */
+ }
+
+.totalprice{
+  padding: 11px;
+  width: 91%;
+  height: 50px;
+  /* background-color: rgb(250, 228, 243); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 auto;
 }

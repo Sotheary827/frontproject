@@ -167,3 +167,18 @@ if (storagedataa) {
     })
     .catch(err => console.error(err));
 }
+
+//  $("#").click(() => {
+//   // var i =1;
+//   //   $('#btn').click(function(){
+//   //       $('.main').append('<div class="box">'+i+'</div>')
+//   //       i++;
+//   //   })
+//     // $("#btncardnumber").text("h")
+//     alert("h")
+//  })
+// $(document).on("click", "#buynow", function(){
+//     alert("jj" )
+
+
+// })
