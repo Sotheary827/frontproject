@@ -28,63 +28,33 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-        <div id="addtocard">
+        <a id="addtocard" href="/page/cardproduct.html">
           <i class="fa-solid fa-bag-shopping bag-icon"></i>
           <button id="btncardnumber">0</button>
-        </div>
+        </a>
       </div>
         <div class="boxpdetail">
       </div>
 
       <div class="boxproducts">
-         
+         <div class="totalprice">
+          <p id="producttotalprice">Total: $40.50</p>
+          <button id="btnclose">Close</button>
+        </div>
         <div class="boxx">
-        <div class="procards">
+        <!-- <div class="procards">
           <div class="procarddetail">
             <img id="picbuyproduct" src="/asset/images/image (2).jpg" alt="">
             <p id="titlebuyproduct" >Title: fdjkfdsfho</p>
             <p id="pricebuyproduct" >Price: $50.20</p>
             <button id="deleteproduct">Delete</button>
           </div>
-        </div>
-        </div>
-        <div class="totalprice">
-          <p>Total: $40.50</p>
-          <button id ="btnclose">Close</button>
+        </div> -->
         </div>
       </div>
-
-
 </body>
 
-<script type="module" src="../asset/js/js2.js">
-// fetch("../asset/API/clothes.json")
-//   .then(res => res.json())
-//   .then(data => {
-//    const card = data[1];
-//     document.querySelector(".boxpdetail").innerHTML = 
-//     `
-//      <div class="detailcard">
-//               <img src="${card['images']}" alt="">
-//             <div class="detailblock">
-//               <p id="pdt">Regular${card['titles']}</p>
-//               <div id="pas">
-//                 <p id="dpr">$${card['prices']}</p>
-//                 <p id="stock">In Stock</p>
-//               </div>
-//               <p id="paradetail">${card['descriptions']}</p>
-//               <div class="lastdetail">
-//               <button id="buynow">Buy Now</button>
-//               <button id="backpage"><a href="index.html">Back</a></button>
-//             <div class="quantity">
-//               <button id="plus">+</button>
-//               <p>1</p>
-//               <button id="minu">-</button>
-//             </div>
-//         </div>
-//      </div>
-//      </div> 
-//     `;
-//   })
-</script>
+<script type="module" src="../asset/js/js2.js"></script>
+<script type="module" src="../asset/js/js1.js"></script>
+
 </html>

@@ -15,7 +15,7 @@ fetch("../asset/API/perfume.json")
               </div>
               <p id="paradetail">${card["description"]}</p>
               <div class="lastdetail">
-              <button id="buynow">Buy Now</button>
+
               <button id="backpage"><a href="index.html">Back</a></button>
             <div class="quantity">
               <button id="plus">+</button>
@@ -39,7 +39,7 @@ fetch("../asset/API/clothes.json")
             <div class="detailblock">
               <p id="pdt">${card["titles"]}</p>
               <div id="pas">
-                <p id="dpr">Price: ${card["prices"]}</p>
+                <p id="dpr">Price: $${card["prices"]}</p>
                 <p id="stock">In Stock</p>
               </div>
               <p id="paradetail">${card["descriptions"]}</p>
@@ -99,7 +99,7 @@ if(i){
             <img id="picbuyproduct" src="${card["images"]}" alt="">
               <p id="titlebuyproduct" >${card["titles"]}</p>
               <p id="pricebuyproduct" >Price: $${card["prices"]}</p>
-                  <button id="deleteproduct">Delete</button>
+                  <button id="deleteproduct" onclick="deleteQuote(${card["id"]})">Delete</button>
           </div>
       </div>`);
 });
@@ -108,11 +108,33 @@ if(i){
 $(document).on("click", "#deleteproduct", function(){
   //  var z = k 
   $("#btncardnumber").text(--k);
-    $(this).parents(".procards").remove();  
-    
+    $(this).parents(".procards").remove();
 });
-// var z = k;
-// $(document).on("click", "#deleteproduct", function(){
-   
+$('.bag-icon').click(function(){
+      document.querySelector('.boxpdetail').style ="display : none;";
+      document.querySelector('.boxproducts').style ="display : block;";
+  })
+  $('#btnclose').click(function(){
+      document.querySelector('.boxpdetail').style ="display : block;";
+      document.querySelector('.boxproducts').style ="display : none;";
+  })
+  function Dp() {
+  fetch("../asset/API/clothes.json")
+  .then((res) => res.json())
+  .then((data) => {
+    for ( let card of data)
+    $(".boxx").prepend(`
+      <div class="procards">
+          <div class="procarddetail">
+            <img id="picbuyproduct" src="${card["images"]}" alt="">
+              <p id="titlebuyproduct" >${card["titles"]}</p>
+              <p id="pricebuyproduct" >Price: $${card["prices"]}</p>
+                  <button id="deleteproduct" onclick="deleteQuote(${card["id"]})">Delete</button>
+          </div>
+      </div>`);
+});
+    
+  }
+  Dp();
 
-// });
+  

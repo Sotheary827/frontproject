@@ -57,6 +57,7 @@ h1 > b {
 }
 .home {
   width: 100%;
+  display: block;
 }
 .homes {
   width: 100%;
@@ -382,15 +383,18 @@ h1 > b {
 .star-rating i {
   margin-top: 25px;
 }
-.blockcard .card .buys {
+.buys {
   background-color: lightpink;
-  width: 100%;
+  width: 50%;
   height: 40px;
   font-size: 18px;
   margin-bottom: 90px;
   border: none;
   cursor: pointer;
   font-weight: bold;
+}
+.buys a{
+  text-decoration: none;
 }
 .blockcard .card .buys:active {
   background-color: rgb(209, 238, 252);
@@ -417,9 +421,9 @@ h1 > b {
   margin-left: 20px;
   border-radius: 10px;
 }
-.bloockcard .cardd .buys {
+.buys {
   background-color: lightpink;
-  width: 100%;
+  width: 50%;
   height: 40px;
   font-size: 18px;
   margin-bottom: 90px;
@@ -434,6 +438,7 @@ h1 > b {
   width: 100%;
   height: auto;
   background-color: rgb(254, 254, 254);
+  display: block;
 }
 .detailcard{
   display: flex;
@@ -478,25 +483,24 @@ h1 > b {
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
 }
+.btn{
+  display: flex;
+
+}
 #buynow{
-  align-items: center;
-  width: 200px;
+  background-color: rgb(13, 168, 246);
+  width: 50%;
   height: 40px;
-  border: none;
-  border-radius: 10px;
   font-size: 18px;
+  margin-bottom: 90px;
+  border: none;
+  cursor: pointer;
   font-weight: bold;
-  background-color: rgb(10, 10, 10);
-  box-shadow: 1px 1px 5px gray;
-  color: white;
-  margin-top: 10px;
 }
 #buynow:active{
-  width: 200px;
   background-color: rgb(9, 10, 1);
   color: rgb(247, 227, 4);
   cursor: pointer;
-  height: 42px;
 }
 #backpage{
   align-items: center;
@@ -535,7 +539,6 @@ h1 > b {
   gap: 20px;
   align-items: flex-start;
 }
-
 #plus{
   font-size: 34px;
   font-weight: bold;
@@ -610,7 +613,6 @@ h1 > b {
   border-radius: 4px;
   border: none;
   padding-left: 10px;
-
 }
 #contactemail{
   width: 90%;
@@ -619,7 +621,6 @@ h1 > b {
   border-radius: 4px;
   border: none;
   padding-left: 10px;
-  
 }
 .imgwithdetail {
   width: 60%;
@@ -673,10 +674,6 @@ h1 > b {
   padding: 10;
   border-radius: 50%;
 }
-
-
-
-
 
 
 .about {
@@ -890,6 +887,8 @@ h1 > b {
 #addtocard i{
   position: relative;
   top: 2px;
+  background-color: #999;
+  width: 50px;
 }
 #addtocard #btncardnumber{
   width: 20px;
@@ -974,14 +973,30 @@ h1 > b {
  }
 
 .totalprice{
-  padding: 11px;
   width: 91%;
-  height: 50px;
-  /* background-color: rgb(250, 228, 243); */
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+#producttotalprice{
   justify-content: center;
   align-items: center;
   display: flex;
+  background-color: #eee;
+  width: 50%;
+  height: 50px;
+}
+#btnclose{
+  margin-top: 20px;
+  border: none;
+  width: 48%;
+  height: 50px;
   font-weight: bold;
-  font-size: 30px;
-  margin: 0 auto;
+  font-size: 20px;
+}
+#btnclose:hover{
+  background-color: rgb(70, 207, 49);
 }

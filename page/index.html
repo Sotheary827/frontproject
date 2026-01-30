@@ -33,15 +33,12 @@
           </button>
         </div>
         <div id="addtocard">
-          <i class="fa-solid fa-bag-shopping bag-icon"></i>
+          <i class="fa-solid fa-bag-shopping bag-icon"><a href="cardproduct.html">Hi</a></i>
           <button id="btncardnumber">0</button>
         </div>
       </div>
-
-
-
       
-      <div class="boxproducts">
+      <!-- <div class="boxproducts">
          <div class="totalprice">
           <p>Total: $40.50</p>
         </div>
@@ -87,7 +84,7 @@
           </div>
         </div>
         </div>
-      </div>
+      </div> -->
 
 
 
@@ -106,7 +103,6 @@
               to make customers feel confident, graceful, and unforgettable—just
               like a performance on a grand stage.
             </p>
-            
             <!-- <button id="topbtn">Buy Now</button> -->
           </div>
         </div>
@@ -199,7 +195,7 @@
         <div class="blockcard">
           <div class="card">
             <img
-              src="asset/images/photo_2024-10-22_18-15-20.jpg" alt=""/>
+              src="/asset/images/photo_2024-10-22_18-15-20.jpg" alt=""/>
             <p style="text-align: center">
               <b style="font-family: &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;">Versace Bright Crystal</b></p>
             <div class="pimg">
@@ -212,7 +208,10 @@
                 <i class="fa-regular fa-star"></i>
               </div>
             </div>
-            <button class="buys">Buy Now</button>
+            <div class="btn">
+            <button class="buys">Order Now</button>
+            <button id="buynow">Buy Now</button>
+            </div>
           </div>
         </div>
         <br><br><br><br><br><br><br>
@@ -221,7 +220,7 @@
         <div class="bloockcard">
           <div class="cardd">
             <img
-              src="asset/images/product (15).jpg" alt=""/>
+              src="/asset/images/product (15).jpg" alt=""/>
             <p style="text-align: center">
               <b style="font-family: &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;">Versace Bright Crystal</b></p>
             <div class="pimg">
@@ -234,7 +233,12 @@
                 <i class="fa-regular fa-star"></i>
               </div>
             </div>
-           <button class="buys"><a href="detail.html">Order Now</a></button>
+            <div class="btn">
+            <button class="buys"><a href="detail.html">Detail Product</a></button>
+            <button id="buynow">Buy Now</button>
+            </div>
+           <!-- <button class="buys"><a href="detail.html">Order Now</a></button>
+           <button id="buynow">Buy Now</button> -->
             
           </div>
         </div>
@@ -245,7 +249,7 @@
         <div class="blockcards">
           <div class="block1">
           <h2>App shop</h2>
-          <img id="qr" src="asset/images/photo_qr.jpg" alt="">
+          <img id="qr" src="/asset/images/photo_qr.jpg" alt="">
         </div>
         <div id="social" class="block1">
           <h2>Follow Us</h2>
@@ -265,134 +269,11 @@
         </div>
         <div class="block1">
           <h2>We Accept</h2>
-          <img id="payment" src="asset/images/We-accept-payment–for-web-footer-1.png" alt="">
+          <img id="payment" src="/asset/images/We-accept-payment–for-web-footer-1.png" alt="">
         </div>
 
         </div>
       </div>
     </div>
   </body>
-  <script type="module"  src="../asset/js/js1.js">
-  //   $("#btns").click(() => {
-  //     if (i == 3) {
-  //       i = 0;
-  //     } else i = i + 1;
-  //     $(".boxcardtwo").css("transform", `translateX(${-i * 420}px)`);
-  //   });
-  //   $("#btn").click(() => {
-  //     if (i == 0) {
-  //       i = 3;
-  //     } else i = i - 1;
-  //     $(".boxcardtwo").css("transform", `translateX(${-i * 420}px)`);
-  //   });
-
-  //   let i = 0;
-  //   var isfull = 0;
-  //   setInterval(function () {
-  //     if (isfull == 1) {
-  //       i = i - 1;
-  //       $(".boxcardtwo").css("transform", `translateX(${-i * 420}px)`);
-  //       if (i === 0) {
-  //         isfull = 0;
-  //         return;
-  //       }
-  //     } else {
-  //       i = i + 1;
-  //       $(".boxcardtwo").css("transform", `translateX(${-i * 420}px)`);
-  //       if (i === 5) {
-  //         isfull = 1;
-  //         return;
-  //       }
-  //     }
-  //   }, 4000);
-
-  //   $(document).ready(function () {
-  //     let index = 0;
-  //     const img = document.querySelectorAll(".card img");
-  //     const a = document.querySelectorAll(".number ul li");
-
-  //     if (img.length > 0 && a.length > 0) {
-  //       setInterval(function () {
-  //         a[index].classList.remove("active");
-  //         index = (index + 1) % a.length;
-  //         img[index].classList.add("active");
-  //         a[index].classList.add("active");
-  //       }, 4000);
-  //     }
-  //   });
-
-
-  //  var id;
-  //   fetch("../asset/API/perfume.json")
-  // .then(res => res.json())
-  // .then(data => {
-  //   var mid = ``;
-  //   for (cards of data) {
-  //     mid += `
-  //         <div class="card">
-  //     <img
-  //       src="${cards['image']}" alt=""/>
-  //     <p style="text-align: center">
-  //       <b style="font-family: &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;">${cards['title']}</b></p>
-  //     <div class="pimg">
-  //       <p><b>Price: </b> <b id="p">$${cards['price']}</b></p>
-  //       <div class="star-rating">
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-regular fa-star"></i>
-  //       </div>
-  //     </div>
-  //     <button class="buys" onclick="buy(${cards['id']})><a href="detail.html">Order Now</a></button>
-  //   </div>
-  //     `;
-  //   }
-  //   document.querySelector(".blockcard").innerHTML = mid;
-  // })
-  // fetch("../asset/API/clothes.json")
-  // .then(res => res.json())
-  // .then(data => {
-  //   var midd = ``;
-  //   for (card of data) {
-  //     midd += `
-  //         <div class="cardd">
-  //     <img
-  //       src="${card['images']}" alt=""/>
-  //     <p style="text-align: center">
-  //       <b style="font-family: &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;">${card['titles']}</b></p>
-  //     <div class="pimg">
-  //       <p><b>Price: </b> <b id="p">$${card['prices']}</b></p>
-  //       <div class="star-rating">
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-solid fa-star"></i>
-  //         <i class="fa-regular fa-star"></i>
-  //       </div>
-  //     </div>
-  //     <button class="buys">Order Now</button>
-  //   </div>
-  //     `;
-  //   }
-  //   document.querySelector(".bloockcard").innerHTML = midd;
-  // })
-  //  $(document).on("click", ".buys", function(){
-  //           let text = $(this).parents(".text");
-  //           let p = text.find(".pricess").text().split('$')[1];
-  //           let q = text.find(".qtyss").text().split(':')[1];
-  //           // alert(p+q)
-  //           totall = parseFloat(p) * parseFloat(q);
-  //             $(this).parents(".text").remove();
-
-  //             grandtotal = grandtotal - parseFloat(totall);
-  //                   $("#totalp").text("Total= $"+grandtotal.toFixed(2))
-  //             alert("hekko")
-  // });
-  // function buy(id){
-  //   // alert(id);
-  //   console.log(id)
-  // }
- 
-  </script>
-</html>
+    <script type="module"  src="../asset/js/js1.js"></script>
